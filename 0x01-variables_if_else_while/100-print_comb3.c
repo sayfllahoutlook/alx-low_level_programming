@@ -1,35 +1,35 @@
 #include <stdio.h>
+
 /**
- * main - prints out all the numbers between 00 and 99
- *descrption : this task it does not print with no two digits being the same
- *the program Return null : 0
+ * main- Entry point
+ * @void: Null value
+ *
+ * Description: Print numbers from 00 to 99
+ * Return: Zero value
  */
+
 int main(void)
 {
-	int i, j;
+	int i = 0;
+	int j;
+	int count = 0;
 
-	for (i = 48; i < 58; i++)
+	while (i <= 8)
 	{
-		for (j = i; j < 58; j++)
+		j = i + 1;
+		while (j <= 9)
 		{
-			if (i == j)
-			{
-				continue;
-			}
-
-			putchar(i);
-			putchar(j);
-
-			if (i == 56 && j == 57)
-			{
-				break;
-			}
-			else
+			putchar(i + '0');
+			putchar(j + '0');
+			if (count != 44)
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			j++;
+			count++;
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
