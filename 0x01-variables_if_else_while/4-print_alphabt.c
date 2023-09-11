@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- *
+ *Description: Print alphabet lowercase
+ * Return: Zero value
  *this programe  Return: 0
  */
 int main(void)
