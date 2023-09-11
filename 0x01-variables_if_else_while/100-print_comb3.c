@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints out all the numbers between 00 and 99
- * in this task it does not print with no two digits being the same
- *the program  Return: 0
+ *descrption : this task it does not print with no two digits being the same
+ *the program Return null : 0
  */
 int main(void)
 {
