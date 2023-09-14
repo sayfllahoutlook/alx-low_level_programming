@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main  print_sign - prints the sign of a numver
- *
- * n: the int to check
+ * print_sign - prints the sign of a number
+ * @n:  the int to check
  *
  * Return: 1 and prints + if n is greater than zero
  *
