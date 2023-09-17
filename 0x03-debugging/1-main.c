@@ -7,18 +7,18 @@
 
 int main(void)
 {
-        int i;// declaration variable
+int i;
 
-        printf("Infinite loop incoming :(\n"); // print statement
+printf("Infinite loop incoming :(\n");
 
-        i = 0; // initialization of variable
+i = 0;
+/*
+*while (i < 10)
+*{
+*putchar(i);
+*}
+*/
+printf("Infinite loop avoided! \\o/\n");
 
-        while (i < 10)
-        {
-                putchar(i);
-        }
-
-        printf("Infinite loop avoided! \\o/\n"); // variable is not increment i++
-
-        return (0);
+return (0);
 }
